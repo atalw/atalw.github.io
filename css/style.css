@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	color: #000000;
+	background: #fafafa;
+}
+p {
+	line-height: 1.5;
+	font-family: monospace;
+	font-size: 2rem;
+}
+
+::selection {
+	background-color: #38d0c4;
+}
+
+.underline {
+	border-bottom: 2px solid currentColor;
+ 	display: inline-block;
+  	line-height: 0.85;
+  	text-shadow:
+    	2px 2px white,
+    	2px -2px white,
+    	-2px 2px white,
+    	-2px -2px white;
+}
+
+hr.divider {
+
+	width: 30%;
+	height: 0px;
+	border-top: 5px solid #000000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+	flex-direction: column;
+  	margin: 0 auto;
+	max-width: 55em;
+}
+.inner-container {
+	width: 80%;
+}
+
+#main {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.title {
+	font-family: "Gotham-Medium";
+	font-size: 8rem;
+	/*margin: 0.5em;*/
+	line-height: 1.5;
+}
+
+#icons {
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+}
+#icons .image {
+	/*padding: 1em;*/
+	margin: 0 auto;
+
+}
+#icons .gmail {
+	position: relative;
+	width: 64px;
+	height: 64px;
+}
+
+#icons .gmail img {
+	position: absolute;
+	left: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+#icons .gmail img.top:hover {
+	opacity: 0
+}
+
+.sectionTitle {
+	font-family: "Gotham-Medium";
+	font-size: 3rem;
+}
+
+#desc {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2rem;
+}
+
+#desc p {
+
+}
+
+#desc a {
+	color: #000000;
+	/*text-decoration: none;*/
+}
+
+#projects {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#projects p {
+}
+
+#projects a {
+	color: #000000;
+	/*text-decoration: none;*/
+}
+
+.projectTitle {
+	font-size: 2.1rem;
+	/*font-weight:*/
+}
+
+#contact {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#contact p {
+
+}
+
+#contact a {
+	color: #000000
+}
+
+@media screen and (max-width: 768px) {
+	.title {
+		font-size: 4.5rem;
+	}
+
+	p {
+		line-height: 1.5;
+		font-family: monospace;
+		font-size: 2.5rem;
+	}
+
+	.sectionTitle {
+		font-size: 3.5rem;
+	}
+
+	.projectTitle {
+		font-size: 2.6rem;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.title {
+		font-size: 3rem;
+	}
+
+	p {
+		line-height: 1.5;
+		font-family: monospace;
+		font-size: 1.5rem;
+	}
+
+	.sectionTitle {
+		font-size: 2rem;
+	}
+
+	.projectTitle {
+		font-size: 1.6rem;
+	}
+}
