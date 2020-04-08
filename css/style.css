@@ -8,7 +8,7 @@ body {
 p {
 	line-height: 1.5;
 	font-family: monospace;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 ::selection {
@@ -30,7 +30,7 @@ hr.divider {
 
 	width: 30%;
 	height: 0px;
-	border-top: 5px solid #000000;
+	border-top: 3px solid #000000;
 }
 
 .container {
@@ -48,14 +48,14 @@ hr.divider {
 #main {
 	display: flex;
 	width: 100%;
-	min-height: 100vh;
+	min-height: 20vh;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
 }
 .title {
 	font-family: "Gotham-Medium";
-	font-size: 8rem;
+	font-size: 3rem;
 	/*margin: 0.5em;*/
 	line-height: 1.5;
 }
@@ -88,7 +88,7 @@ hr.divider {
 
 .sectionTitle {
 	font-family: "Gotham-Medium";
-	font-size: 3rem;
+	font-size: 1.5rem;
 }
 
 #desc {
@@ -126,7 +126,7 @@ hr.divider {
 }
 
 .projectTitle {
-	font-size: 2.1rem;
+	font-size: 1.5rem;
 	/*font-weight:*/
 }
 
@@ -159,11 +159,11 @@ hr.divider {
 	}
 
 	.sectionTitle {
-		font-size: 3.5rem;
+		font-size: 2.5rem;
 	}
 
 	.projectTitle {
-		font-size: 2.6rem;
+		font-size: 2.5rem;
 	}
 
 }
@@ -180,10 +180,10 @@ hr.divider {
 	}
 
 	.sectionTitle {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.projectTitle {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 }
